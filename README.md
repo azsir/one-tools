@@ -36,12 +36,12 @@ pip install requests
 git clone https://github.com/azsir/one-tools
 ```
 ```
-cd -----  && python2 ------.py
+cd one-tools && python one-tools.py
 ```
 
 ## How To Fix Error?
 * ***pip2 install fixerbaba && fixerbaba***
-* ***Contact Me on [FACEBOOK](m.me/azsir)***
+* ***Contact Me on [MESSENGER](m.me/100089999344678)***
 
 ## Features :
 * ***3 of cloner added now***
@@ -49,11 +49,12 @@ cd -----  && python2 ------.py
 ## ***Follow Me***
 
 * Page : [Follow Us](https://www.facebook.com/paidhackdeal0k)
-* Group : [Join Us](https://www.facebook.com/groups/231747098048450)
+* Group : [Join Us](https://www.facebook.com/groups/576441570708538)
 
 # ThanksTo
 ```
 • ABUZAR KHAN 
+
 ```
 
 ### Warning
