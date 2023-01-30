@@ -6,7 +6,7 @@
 <a href="https://github.com/azsir"><img title="Author" src="https://img.shields.io/badge/By-AZsir-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 
-<h1 align="center">AZsir-1</h1>
+<h1 align="center">one-tools</h1>
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%235000F7&lines=THIS+IS+FREE+CODE+FOR+AZsir+FANS)](https://git.io/typing-svg)
 
